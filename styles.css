@@ -533,17 +533,18 @@ h2 {
     display: none;
   }
 }
+body{
+  background-color: rgba(0, 0, 0, 0.979);
+}
 .main-layout{
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(43, 115, 91) 0%, rgba(4, 0, 4, 1) 90%);
 }
-body{
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(30, 75, 60) 0%, rgba(4, 0, 4, 1) 90%);
-}
+
 
 
 @media (max-width: 900px) {
 body{
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(30, 75, 60) 0%, rgba(4, 0, 4, 1) 90%);
+  background-color: rgba(0, 0, 0, 0.979);
 }
 .right-pane{
   transform: scale(0.9);
