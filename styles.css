@@ -235,44 +235,6 @@ h2 {
   text-decoration: none;
 }
 
-/* Loading Overlay
-.loading-overlay {
-  
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-size: 0.9rem;
-  font-family: Roboto Mono, Helvetica, sans-serif;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
-  z-index: 1000;
-}
-
-.hidden {
-  display: none;
-}
-
-.loader {
-  width: 40px;
-  height: 40px;
-  border: 3px solid #fff;
-  border-top: 3px solid #4db182d8;
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
-} */
-
-
-
-
-
-
-
 .loading-overlay{
   position: absolute;
   top: 0;
@@ -350,41 +312,34 @@ h2 {
 }
 
 .crystal:nth-child(1) {
-  background: linear-gradient(45deg, #003366, #336699);
   animation-delay: 0s;
+  background: linear-gradient(45deg, #388b62, #283831);
 }
 
 .crystal:nth-child(2) {
-  background: linear-gradient(45deg, #003399, #3366cc);
-  animation-delay: 0.3s;
+    background: linear-gradient(45deg, #1a7c46, #20382f);
+    animation-delay: 0.3s;
 }
 
 .crystal:nth-child(3) {
-  background: linear-gradient(45deg, #0066cc, #3399ff);
-  animation-delay: 0.6s;
+    background: linear-gradient(45deg, #0a8159, #17442f);
+    animation-delay: 0.6s;
 }
 
 .crystal:nth-child(4) {
-  background: linear-gradient(45deg, #0099ff, #66ccff);
-  animation-delay: 0.9s;
+    background: linear-gradient(45deg, #056943, #0d4127);
+    animation-delay: 0.9s;
 }
 
 .crystal:nth-child(5) {
-  background: linear-gradient(45deg, #33ccff, #99ccff);
-  animation-delay: 1.2s;
+    background: linear-gradient(45deg, #00502b, #11462d);
+    animation-delay: 1.2s;
 }
 
 .crystal:nth-child(6) {
-  background: linear-gradient(45deg, #66ffff, #ccffff);
-  animation-delay: 1.5s;
+  background: linear-gradient(45deg, rgb(31, 83, 67), #0c2416);
+animation-delay: 1.5s;
 }
-
-
-/* @keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-} */
 
 /* Thank You Slide - Full Screen */
 .thank-you-slide {
